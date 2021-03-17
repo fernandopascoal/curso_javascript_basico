@@ -1,4 +1,4 @@
- //------------------TRABALHANDO COM ARRAYS-------------------//
+ //------------------TRABALHANDO COM ARRAYS - Aula 2-------------------//
 
 /* var nome = "Fernando Veiga"
 var idade = 28
@@ -30,7 +30,7 @@ console.log (lista.join(" * ")) // transforma em string e define um separador*/
 //----------------------------------FIM--------------------------------------// 
 
 
-//---------------------TRABALHANDO COM DICIONARIO--------------------------//
+//---------------------TRABALHANDO COM DICIONARIO - Aula 2--------------------------//
 
 /*let fruta = {nome: "morango", cor: "vermelho", preco: "3,50"}
 
@@ -43,6 +43,51 @@ console.log(frutas)
 alert(frutas[1].nome)*/
 
 //-------------------------------FIM--------------------------------------------//
+
+//-------------------CONDICIONAIS, LAÇOS DE REPETIÇÃO E DATE--------------------//
+
+//----Condicionais---//
+
+/*
+var idade = prompt("Qual sua idade ?")
+
+if (idade >= 18) {
+    alert("Maior de idade")
+} else {
+    alert ("Menor de idade")
+}
+*/
+
+//-----Laços de Repetição------//
+
+/* --- while
+var count = 0
+
+while (count <= 5) {
+    console.log(count);
+    count ++;
+}
+*/
+
+/*----for-----
+var count;
+
+for (count=0; count <= 5; count++){
+    console.log(count)
+}
+*/
+
+//----- Date-----//
+/*
+var d = new Date()
+alert(d)
+alert(d.getDay())//mostra o dia da semana
+alert(d.getDate())//mostra o dia
+alert(d.getHours())//mostra as horas
+alert(d.getMinutes())// mostra os minutos
+alert(d.getMonth()+1)//mostra o mes. O mes sempre começa no 0 por isso precisa colocar o +1 pra mostrar o mes certo
+*/
+
 
 
 
