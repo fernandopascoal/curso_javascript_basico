@@ -88,6 +88,60 @@ alert(d.getMinutes())// mostra os minutos
 alert(d.getMonth()+1)//mostra o mes. O mes sempre começa no 0 por isso precisa colocar o +1 pra mostrar o mes certo
 */
 
+//----------------------------FIM------------------------------//
+
+//----------------------------AULA 4 - MANIPULANDO ELEMENTOS------------------------------//
+
+/* 
+function soma (n1, n2) {
+    return n1 + n2;
+}
+
+function validaIdade (idade){
+    var validar;
+    if (idade >= 18){
+        validar = true;
+    } else {
+        validar = false;
+    }
+    return validar
+}
+
+var idade = prompt("Qual sua idade?");
+console.log(validaIdade(idade))
+
+//alert(soma (20, 10));
+*/
+
+/*
+function botao(){
+    document.getElementById("click").innerHTML = "<b>Isso é um teste<b>" //escreve o texto no elemento que contem o mesmo id
+}
+
+function redirect(){
+    window.open("https://www.google.com.br/") //abre o link em outra aba
+    window.location.href = "https://www.google.com.br/" //abre o link na mesma pagina
+}
+*/
+
+/*
+function trocar() {
+    document.getElementById("troca").innerHTML = "<b>Uiiiiii, você passou o mouse aqui<b>"//muda o texto quando passa o mouse
+}
+
+/*function load() {
+    alert("está pagina esta pronta")//da um alert quando carrega a pagina
+}*/
+/*
+function change(elemento) {
+    console.log(elemento.value)//recebe um valor selecionado no select
+
+}
+*/
+
+//---------------------FIM DO MÓDULO BÁSICO-----------------------//
+
+
 
 
 
